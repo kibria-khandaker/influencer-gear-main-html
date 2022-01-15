@@ -1,0 +1,36 @@
+@media screen and (max-width: 1024px) and (min-width: 769px) {
+  body {
+    background-color: rgb(32, 209, 32);
+  }
+  .header_box,
+  main {
+    max-width: 95%;
+  }
+  .collection_item_area {
+    grid-template-columns: 1fr 1fr;
+  }
+  .image_area > img {
+    width: 70%;
+  }
+  .team_box {
+    grid-template-columns: auto auto;
+  }
+}
+@media screen and (max-width: 768px) {
+  body {
+    background-color: rgb(194, 119, 20);
+  }
+  .header_box,
+  main {
+    max-width: 95%;
+  }
+  .collection_item_area {
+    grid-template-columns: 1fr;
+  }
+  .image_area > img {
+    width: 70%;
+  }
+  .team_box {
+    grid-template-columns: auto;
+  }
+}
