@@ -1,7 +1,4 @@
 @media screen and (max-width: 1024px) and (min-width: 769px) {
-  body {
-    background-color: rgb(32, 209, 32);
-  }
   .header_box,
   main {
     max-width: 95%;
@@ -17,9 +14,6 @@
   }
 }
 @media screen and (max-width: 768px) {
-  body {
-    background-color: rgb(194, 119, 20);
-  }
   .header_box,
   main {
     max-width: 95%;
