@@ -17,6 +17,16 @@
   .hero_section {
     grid-template-columns: auto;
   }
+  .text_area {
+    text-align: center;
+  }
+  .text_area > h1 {
+    text-align: center;
+  }
+
+  .text_area > p {
+    text-align: center;
+  }
   .header_box,
   main {
     max-width: 95%;
