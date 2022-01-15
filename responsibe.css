@@ -14,6 +14,9 @@
   }
 }
 @media screen and (max-width: 768px) {
+  .hero_section {
+    grid-template-columns: 1fr;
+  }
   .header_box,
   main {
     max-width: 95%;
